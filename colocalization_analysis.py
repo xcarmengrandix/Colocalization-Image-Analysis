@@ -3,9 +3,6 @@
 
 # In[1]:
 
-
-#the guide followed is this one -> http://bebi103.caltech.edu.s3-website-us-east-1.amazonaws.com/2019a/content/recitations/colocalization.html
-
 import os
 import random
 
@@ -49,7 +46,7 @@ from pandas import DataFrame
 # In[4]:
 
 
-data_dir = r'C:\Users\Carmen\Desktop\github\colocalyzation'
+data_dir = r'C:\Users\path'
 
 #define file name
 fname = os.path.join(data_dir, 'Composite (RGB)_ERGIC3_N_dsRNA.tif')
@@ -298,14 +295,6 @@ with open('coloc_results.csv', 'w') as s:
     for row in r:
         w.writerow(row)
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
